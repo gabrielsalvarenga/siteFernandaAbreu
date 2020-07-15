@@ -1,0 +1,43 @@
+@font-face{
+    font-family: 'Petrona Regular';
+    src: url("/assets/fonts/Petrona-Regular.ttf");
+  }
+  
+  .layout-topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color:gray;
+  }
+  
+  .logo{
+    height: 90px;
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .topbar-menu{
+    float: right;
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 25px;
+  
+  }
+  
+  .topbar-menu li{
+    min-width: 100px;
+    text-align: center;
+  }
+  
+  .topbar-menu a{
+    color: white;
+    cursor: pointer;
+    font-family:'Petrona Regular';
+    font-size: 1.3em;
+  }
+  
+  /*
+  
+  */
