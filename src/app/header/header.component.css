@@ -13,14 +13,15 @@
   }
   
   .logo{
-    height: 90px;
+    height: 50px;
     position: absolute;
-    display: inline-block;
+    float: left;
+    margin-top: 10px ;
   }
   
   .topbar-menu{
     float: right;
-    display: inline-flex;
+    display: inline-flex; 
     list-style-type: none;
     margin-top: 25px;
   
@@ -36,6 +37,9 @@
     cursor: pointer;
     font-family:'Petrona Regular';
     font-size: 1.3em;
+  }
+  p{
+    font-family: 'Petrona Regular';
   }
   
   /*
