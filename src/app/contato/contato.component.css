@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'Petrona Regular';
+    src: url("/assets/fonts/Petrona-Regular.ttf");
+  }
+
+.body{
+    position: absolute;
+    left: 0;
+    right: 0;  
+    margin-top: 62px;
+    margin-bottom: 0px;
+    background-color:rgba(99,99,99,.3);
+    height: 560px;
+    margin-bottom: 0em;
+    font-family: 'Petrona Regular';
+}
+
+h2{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.ui-float-label{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.column-1,.column-2{
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:;
+
+}
+
+.column-1{
+    width: 50%;
+    float: left;
+}
+.column-2{
+    float: right;
+    width: 50%;
+}
+
+.logo{
+}
+.imgLogo{
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact{
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+.contact li{
+    padding: 5px;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+}
