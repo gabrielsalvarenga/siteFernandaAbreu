@@ -1,0 +1,35 @@
+<div class="body">
+
+    <div class="banner">
+        <section>
+            <p-carousel class="carousel" [value]="items" [numVisible]="1" [autoplayInterval]="3000" [circular]="true">
+                
+                <ng-template let-img pTemplate="item">
+                    <img src="{{img.item}}">
+                </ng-template>
+            </p-carousel>
+
+        </section>
+    </div>
+    <div class="service">
+        <article>
+            <img src="../assets/img/consultoria.jpg">
+            <div>
+                <h2>Consultorias</h2>
+            </div>
+        </article>
+        <article>
+            <img src="../assets/img/projeto.jpg">
+            <div>
+                <h2>Projetos de arquitetura</h2>
+            </div>
+        </article>
+        <article>
+            <img src="../assets/img/bbquarto.jpg">
+            <div>
+                <h2>Projetos de interiores</h2>
+            </div>
+        </article>
+
+    </div>
+</div>

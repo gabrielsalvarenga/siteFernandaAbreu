@@ -13,6 +13,7 @@ import { SobreComponent } from './sobre/sobre.component';
 import { ContatoComponent } from './contato/contato.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     FooterComponent,
     SobreComponent,
     ContatoComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
