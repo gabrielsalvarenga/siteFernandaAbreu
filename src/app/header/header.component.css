@@ -17,13 +17,13 @@
 .topbar-menu li{
   width: 100%;
   text-align: center;
+  z-index: 2;
 }
   
 a{
     font-family:'Petrona Regular';
     font-size: 130%;
     color: white;
-    
   }
   a:hover{
     color: #404040;
